@@ -1,0 +1,10 @@
+
+.button-component {
+  background-color: var(--primary);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5rem;
+
+}
