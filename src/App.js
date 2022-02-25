@@ -45,6 +45,8 @@ export default class App extends React.Component {
     let formattedData = [];
 
     Object.keys(this.state.cryptos).map((crypto) => {
+      console.log('crypt:  ', crypto);
+      console.log(this.state.cryptos);
       formattedData.push({
         key: crypto,
         price: this.state.cryptos[crypto]["USD"]["PRICE"],
